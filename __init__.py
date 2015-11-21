@@ -5,3 +5,4 @@ amazing JSON module. All code is compliant with the Google
 Style Guide for Python, especially in that all name follows
 the correct capitalization.
 """
+__all__ = ["terminal"]
