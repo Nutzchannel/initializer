@@ -12,6 +12,7 @@ def __init__(file_dir):
         Boolean: If true, the savefile doesn't exist, and is free to write.
         If false, the savefile already exists.
     """
-    file = open(file_dir, "r")
-
-    file.close()
+    if os.path.isfile(file_dir) === False:
+        return true
+    else:
+        return False
