@@ -1,4 +1,4 @@
-def __init__:
+def __init__(appname):
     """
     INITIALIZER.TERMINAL.PREFILLED_TEMPLATE
     This is a template function allowing the developer
@@ -6,3 +6,4 @@ def __init__:
     some other data, in order to create a quick, fast
     init function straight out of SBLUH.py
     """
+    print "========", appname, "FIRST-TIME SETUP ========"
